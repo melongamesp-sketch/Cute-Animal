@@ -74,7 +74,101 @@ button,input{font:inherit}
 .cost-hero{display:grid;grid-template-columns:.9fr 1.1fr;gap:28px;align-items:center;background:#fff;border-radius:28px;padding:32px;box-shadow:var(--shadow)}.big-number{display:block;font-size:clamp(2.2rem,5vw,4rem);font-weight:900;color:var(--accent)}.cost-hero small{color:var(--muted);font-weight:800}.cost-hero p{margin:0;color:var(--muted)}
 .cost-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:22px}.cost-grid article{background:#fff;border-radius:22px;padding:24px}.cost-grid article>span{color:var(--accent);font-weight:900}.cost-grid h3{margin:7px 0}.cost-grid p{margin:0;color:var(--muted);font-size:.92rem}.note,.small-note{color:#81766e;font-size:.82rem;margin-top:18px}
 .size-intro{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.size-intro article{padding:25px;background:var(--cream);border-radius:22px}.size-intro span{font-size:.75rem;font-weight:900;color:var(--accent)}.size-intro h3{margin:7px 0}.size-intro p{margin:0;color:var(--muted)}
-.subheading{text-align:center;margin:58px 0 22px;font-size:1.5rem}.breed-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.breed-card{background:#fff;border-radius:24px;overflow:hidden;box-shadow:0 10px 30px rgba(77,59,47,.08);padding-bottom:18px}.breed-card h3,.breed-card ul{margin-left:20px;margin-right:20px}.breed-card h3{margin-top:12px}.breed-card ul{padding-left:20px;color:var(--muted);font-size:.9rem}.breed-photo{height:190px;background-size:cover;background-position:center}.toy-poodle{background-image:url("https://images.unsplash.com/photo-1601758003122-53c40e686a19?auto=format&fit=crop&w=900&q=80")}.chihuahua{background-image:url("https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=900&q=80")}.shiba{background-image:url("https://images.unsplash.com/photo-1551717743-49959800b1f6?auto=format&fit=crop&w=900&q=80")}.beagle{background-image:url("https://images.unsplash.com/photo-1507146426996-ef05306b995a?auto=format&fit=crop&w=900&q=80")}.golden{background-image:url("https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=900&q=80")}.labrador{background-image:url("https://images.unsplash.com/photo-1596492784531-6e6eb5ea9993?auto=format&fit=crop&w=900&q=80")}.badge{display:inline-block;margin:16px 20px 0;padding:4px 10px;border-radius:999px;font-size:.75rem;font-weight:900}.badge.small{background:#eef8ff}.badge.medium{background:#f0f8ed}.badge.large{background:#fff0d8}
+
+.subheading{
+  text-align:center;
+  margin:58px 0 22px;
+  font-size:1.5rem;
+}
+
+.breed-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+}
+
+.breed-card{
+  background:#fff;
+  border-radius:24px;
+  overflow:hidden;
+  box-shadow:0 10px 30px rgba(77,59,47,.08);
+  padding-bottom:18px;
+}
+
+.breed-card h3,
+.breed-card ul{
+  margin-left:20px;
+  margin-right:20px;
+}
+
+.breed-card h3{
+  margin-top:12px;
+}
+
+.breed-card ul{
+  padding-left:20px;
+  color:var(--muted);
+  font-size:.9rem;
+}
+
+.breed-photo{
+  height:220px;
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+/* トイ・プードル */
+.toy-poodle{
+  background-image:url("https://images.unsplash.com/photo-1597506327062-2e214954a12c?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fCVFMyU4MyU4OCVFMyU4MiVBNCVFMyU4MyU5NyVFMyU4MyVCQyVFMyU4MyU4OSVFMyU4MyVBQnxlbnwwfHwwfHx8MA%3D%3D");
+}
+
+/* チワワ */
+.chihuahua{
+  background-image:url("https://images.unsplash.com/photo-1633930854815-63829d88ef17?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fCVFMyU4MyU4MSVFMyU4MyVBRiVFMyU4MyVBRnxlbnwwfHwwfHx8MA%3D%3D");
+}
+
+/* 柴犬 */
+.shiba{
+  background-image:url("https://images.unsplash.com/photo-1737050440951-661aa2c3a1e6?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fCVFNiU5RiVCNCVFNyU4QSVBQ3xlbnwwfHwwfHx8MA%3D%3D");
+}
+
+/* ビーグル */
+.beagle{
+  background-image:url("https://images.unsplash.com/photo-1608113240010-e76286118bf2?q=80&w=637&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+/* ゴールデン・レトリバー */
+.golden{
+  background-image:url("https://plus.unsplash.com/premium_photo-1694819488591-a43907d1c5cc?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8JUUzJTgyJUI0JUUzJTgzJUJDJUUzJTgzJUFCJUUzJTgzJTg3JUUzJTgzJUIzJUUzJTgzJUJCJUUzJTgzJUFDJUUzJTgzJTg4JUUzJTgzJUFBJUUzJTgzJTkwJUUzJTgzJUJDfGVufDB8fDB8fHww");
+}
+
+/* ラブラドール・レトリバー */
+.labrador{
+  background-image:url("https://images.unsplash.com/photo-1586671267731-da2cf3ceeb80?q=80&w=1200&auto=format&fit=crop");
+}
+
+.badge{
+  display:inline-block;
+  margin:16px 20px 0;
+  padding:4px 10px;
+  border-radius:999px;
+  font-size:.75rem;
+  font-weight:900;
+}
+
+.badge.small{
+  background:#eef8ff;
+}
+
+.badge.medium{
+  background:#f0f8ed;
+}
+
+.badge.large{
+  background:#fff0d8;
+}
+
 .family-hero{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}.family-image{min-height:390px;border-radius:28px;background:url("https://images.unsplash.com/photo-1555252333-9f8e92e65df9?auto=format&fit=crop&w=1200&q=85") center/cover}.family-hero h3{font-size:1.9rem;line-height:1.4}.family-hero p{color:var(--muted)}.family-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:25px}.family-grid article{background:#fff;border-radius:20px;padding:23px}.family-grid span{font-size:2rem}.family-grid h3{margin:7px 0}.family-grid p{margin:0;color:var(--muted);font-size:.9rem}
 .warning-box{margin-top:24px;padding:22px;background:#fff8df;border-left:5px solid #e5b74d;border-radius:18px}.warning-box p{margin:5px 0 0}
 .walk-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.walk-steps>div{padding:25px;background:#fff;border-radius:22px}.walk-steps strong{color:var(--accent)}.walk-steps h3{margin:8px 0}.walk-steps p{margin:0;color:var(--muted);font-size:.92rem}
